@@ -1,0 +1,15 @@
+# Build outputs (build.ps1 recreates them)
+bin/
+obj/
+dist/
+
+# Editor / OS clutter
+.vs/
+*.suo
+*.user
+Thumbs.db
+desktop.ini
+
+# Local test data and logs
+perf*.log
+*.tmp
